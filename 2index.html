@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éclat Accessories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>Éclat</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="cart-btn" onclick="showCart()">
+                🛒 Cart (<span id="cart-count">0</span>)
+            </button>
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero">
+
+        <div>
+            <p>WELCOME TO ÉCLAT</p>
+
+            <h2>The elegance that reflects you.</h2>
+
+            <p>
+                Discover our elegant collection of accessories
+                designed to make every moment special.
+            </p>
+
+            <a href="#products" class="btn">
+                Shop Now
+            </a>
+        </div>
+
+    </section>
+
+
+    <section id="products">
+
+        <h2 class="section-title">Our Collection</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <div class="product-image">💎</div>
+
+                <h3>Elegant Necklace</h3>
+
+                <p>Beautiful and delicate necklace.</p>
+
+                <strong>150 DH</strong>
+
+                <button onclick="addToCart('Elegant Necklace', 150)">
+                    Add to Cart
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">✨</div>
+
+                <h3>Golden Earrings</h3>
+
+                <p>Elegant earrings for every occasion.</p>
+
+                <strong>120 DH</strong>
+
+                <button onclick="addToCart('Golden Earrings', 120)">
+                    Add to Cart
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">💍</div>
+
+                <h3>Classic Ring</h3>
+
+                <p>A simple and elegant ring.</p>
+
+                <strong>100 DH</strong>
+
+                <button onclick="addToCart('Classic Ring', 100)">
+                    Add to Cart
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">🤍</div>
+
+                <h3>Luxury Bracelet</h3>
+
+                <p>A beautiful bracelet with a modern design.</p>
+
+                <strong>180 DH</strong>
+
+                <button onclick="addToCart('Luxury Bracelet', 180)">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="about">
+
+        <h2 class="section-title">About Éclat</h2>
+
+        <p class="about">
+            Éclat Accessories is a modern accessories brand
+            created for women who love elegance and simplicity.
+        </p>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <p class="contact">
+            Email: contact@eclat-accessories.com
+        </p>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 Éclat Accessories</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
